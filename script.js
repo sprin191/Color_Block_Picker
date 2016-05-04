@@ -12,13 +12,13 @@ $(document).ready(function () {
   randomColor();
 
   //generates 4 colored box divs
-  $('.result').after('<div class="red"></div>');
+  $('.container').append('<div class="red"></div>');
 
-  $('.result').after('<div class="orange"></div>');
+  $('.container').append('<div class="orange"></div>');
 
-  $('.result').after('<div class="blue"></div>');
+  $('.container').append('<div class="blue"></div>');
 
-  $('.result').after('<div class="green"></div>');
+  $('.container').append('<div class="green"></div>');
 
   //click event functions --> notifies the user if the color they clicked on is correct, and, if so, generates a new random color to pick
   $('.red').on('click', function () {

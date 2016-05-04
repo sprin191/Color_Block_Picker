@@ -1,10 +1,23 @@
-div {
+.container {
+  text-align: center;
+}
+
+.red, .orange, .blue, .green {
   display: inline-block;
   width: 150px;
   height: 150px;
   border: 1px solid black;
-  margin: 8px;
   cursor: pointer;
+  margin: 8px;
+}
+
+h1, p {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+p {
+  font-size: 20px;
 }
 
 .red {
